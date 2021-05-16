@@ -2,6 +2,6 @@
 
 function findMatching(arrOfDrivers, string) {
   
-  return arrOfDrivers.toLowerCase().filter(driver => driver === string.toLowerCase());
+  return arrOfDrivers.filter(driver => driver.toLowerCase() === string.toLowerCase());
   
 }
