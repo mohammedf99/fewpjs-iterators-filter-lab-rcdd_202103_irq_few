@@ -8,7 +8,7 @@ function findMatching(arrOfDrivers, name) {
 
 function fuzzyMatch(arrOfDrivers, letter) {
   
-  return arrOfDrivers.filter(driver => driver.charAt(0));
+  return arrOfDrivers.filter(driver => driver.charAt(0) === letter.charAt(0));
   
 }
 
