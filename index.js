@@ -8,6 +8,6 @@ function findMatching(arrOfDrivers, name) {
 
 function fuzzyMatch(arrOfDrivers, letter) {
   
-  return arrOfDrivers.filer(driver => driver.charAt(0) === letter);
+  return arrOfDrivers.filter(driver => driver.charAt(0) === letter);
   
 }
