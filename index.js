@@ -1,7 +1,7 @@
 // Code your solution here
 
-function findMatching(arrOfDrivers, string) {
+function findMatching(arrOfDrivers, name) {
   
-  return arrOfDrivers.filter(driver => driver.toLowerCase() === string.toLowerCase());
+  return arrOfDrivers.filter(driver => driver.toLowerCase() === name.toLowerCase());
   
 }
